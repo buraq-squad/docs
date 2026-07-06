@@ -8,15 +8,16 @@ hires quickly; secondary goal is serving as an ongoing reference/knowledge base.
 
 ## Repo & Hosting
 
-- New GitHub repo: `buraq-squad/docs`, **private**.
+- GitHub repo: `buraq-squad/docs`, **public**.
+  - Originally planned as private, but the `buraq-squad` org is on the GitHub Free plan,
+    which does not support GitHub Pages for private repositories at all (confirmed via a
+    422 from the Pages API: "Your current plan does not support GitHub Pages for this
+    repository"). The team chose to make the repo public rather than pay for GitHub Team
+    to unlock private-repo Pages. Content is placeholder-only at this stage.
 - Static site built with **MkDocs + Material theme** (plain Markdown source, YAML nav
   config — no framework/build complexity, easy for non-engineers to contribute to).
-- Deployed to **GitHub Pages** via a GitHub Actions workflow triggered on push to `main`.
-  - Caveat accepted by the team: GitHub Pages built from a private repo on
-    Free/Pro/Team plans produces a site that is technically reachable by anyone with
-    the URL, even though the source repo itself stays private and access-controlled.
-    True org-only Pages access control requires GitHub Enterprise Cloud, which is not
-    in scope now.
+- Deployed to **GitHub Pages** via a GitHub Actions workflow triggered on push to `main`,
+  publishing to https://buraq-squad.github.io/docs/.
 
 ## Content Structure
 
