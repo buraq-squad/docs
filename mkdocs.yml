@@ -1,0 +1,59 @@
+site_name: Buraq Squad Docs
+site_description: Internal documentation for game development at Buraq Squad
+docs_dir: docs
+site_dir: site
+
+exclude_docs: |
+  superpowers/
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Onboarding:
+      - Getting Started: onboarding/getting-started.md
+      - Team & Tools: onboarding/team-and-tools.md
+      - First Week Checklist: onboarding/first-week-checklist.md
+  - Engineering:
+      - Godot Conventions: engineering/godot-conventions.md
+      - Git Workflow: engineering/git-workflow.md
+      - Architecture: engineering/architecture.md
+      - Tooling: engineering/tooling.md
+  - Art:
+      - Asset Pipeline: art/asset-pipeline.md
+      - Import Settings: art/import-settings.md
+      - Naming Conventions: art/naming-conventions.md
+  - Design:
+      - Game Design Doc Template: design/game-design-doc-template.md
+      - Level Design Workflow: design/level-design-workflow.md
+      - Scripting for Designers: design/scripting-for-designers.md
+  - Production:
+      - Bug Reporting: production/bug-reporting.md
+      - Build & Release: production/build-and-release.md
+      - Milestones & Planning: production/milestones-and-planning.md
+  - Contributing:
+      - How to Write Docs: contributing/how-to-write-docs.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
