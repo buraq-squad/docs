@@ -6,9 +6,30 @@
 
 
 ## How will we communicate?
-* Discord (Main for meetings)
-* WhatsApp
-* Meeting Cadence
+### Discord
+Soon...
+### WhatsApp
+Since Discord isn't accessible everywhere, we use WhatsApp to keep the entire studio connected and aligned. Here is a breakdown of how our groups are organized:
+* General Channels:
+  * **General**: for every day communication.
+  * **Applicants**: to managing recruitment.
+* BizOps (Business Operations):  
+  * **Management**
+  * **Funds & Finance**
+  * **Marketing & PR**
+* Production & Active Sprints:
+  * **Current Sprint: Android mini-games**
+  * **Main Sprint: SCARLET**
+  * **Main Sprint: HEXYBER**
+  * **Main Sprint: YouTube**
+  * **Product Evaluation**: for testing builds, QA, gameplay feedback, and milestone reviews.
+* Department Hubs:
+  * **Developers**
+  * **Artists**
+  * **Audio & Scripts**: for voiceovers and writers.
+* Innovation & Resources:
+  * **Game Ideas & Brainstorming**: a sandbox for throwing out new concepts, mechanics, and future project ideas.
+  * **Links & Resources**
 
 ## Tools according to your role
 
