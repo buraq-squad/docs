@@ -48,6 +48,7 @@ nav:
       - Bug Reporting: production/bug-reporting.md
       - Build & Release: production/build-and-release.md
       - Milestones & Planning: production/milestones-and-planning.md
+      - Using Plane: production/using-plane.md
   - Contributing:
       - How to Write Docs: contributing/how-to-write-docs.md
 

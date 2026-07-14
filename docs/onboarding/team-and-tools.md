@@ -1,8 +1,13 @@
 <!-- TODO: Describe team structure (roles, who reports to whom, org chart link) -->
 <!-- TODO: List communication tools in use (Slack/Discord channels, meeting cadence) -->
-<!-- TODO: List task tracker / project management tool and how to use it -->
 
 # Team & Tools
+
+## Task tracker
+
+We use [Plane](https://github.com/makeplane/plane) to track sprints, tasks,
+and bugs — see [Using Plane](../production/using-plane.md) for a beginner's
+walkthrough of how to log in and use it day to day.
 
 
 ## How will we communicate?
